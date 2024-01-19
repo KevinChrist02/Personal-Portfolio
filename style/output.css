@@ -3,6 +3,10 @@
   font-family: "Quicksand", sans-serif;
 }
 
+body {
+  background-image: linear-gradient(to right, #4f772d 0%, #90a955 40%, #dddf00 60%);
+}
+
 .footer a {
   text-decoration: none;
   color: white;
@@ -15,7 +19,7 @@
 
 .main {
   display: block;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.4);
   max-width: 75vw;
   margin-top: 10vh;
   margin-bottom: 30px;
@@ -25,8 +29,8 @@
 }
 .main .navbar .logo img {
   border-radius: 14px;
-  max-width: 60px;
-  max-height: 60px;
+  max-width: 70px;
+  max-height: 70px;
   margin-left: 20px;
 }
 .main .content {
@@ -53,6 +57,9 @@
 .main .image img {
   max-width: 290px;
   border-radius: 14px;
+}
+.main .footer {
+  margin-left: 20px;
 }
 
 /*# sourceMappingURL=output.css.map */
