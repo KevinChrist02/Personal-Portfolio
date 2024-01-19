@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import "mediaQueries";
 
 $primary-color: white;
 
@@ -46,7 +47,7 @@ body{
     width: 100%;
 
     .text{
-      display: inline-block;
+      display: block;
       margin-top: 10vh;
       padding: 20px;
 

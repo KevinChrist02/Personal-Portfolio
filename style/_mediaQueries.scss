@@ -1,0 +1,13 @@
+$largeScreen: 1075px;
+
+@media screen and (max-width: $largeScreen) {
+  .main {
+    .content {
+      flex-direction: column;
+    }
+
+    .image {
+      margin-bottom: 20px;
+    }
+  }
+}

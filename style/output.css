@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@media screen and (max-width: 1075px) {
+  .main .content {
+    flex-direction: column;
+  }
+  .main .image {
+    margin-bottom: 20px;
+  }
+}
 * {
   font-family: "Quicksand", sans-serif;
 }
@@ -39,7 +47,7 @@ body {
   width: 100%;
 }
 .main .content .text {
-  display: inline-block;
+  display: block;
   margin-top: 10vh;
   padding: 20px;
 }
