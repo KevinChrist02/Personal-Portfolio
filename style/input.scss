@@ -32,15 +32,6 @@ body{
   border-radius: 14px;
   box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
 
-  .navbar {
-    .logo img {
-      border-radius: 14px;
-      max-width: 70px;
-      max-height: 70px;
-      margin-left: 20px;
-    }
-  }
-
   .content{
     color: $primary-color;
     display: flex;
@@ -52,6 +43,7 @@ body{
       padding: 20px;
 
       p{
+        margin-top: 25px;
         font-size: 20px;
         line-height: 25px;
       }
@@ -71,6 +63,9 @@ body{
   }
 
   .footer{
+    display: flex;
+    font-size: 30px;
+    gap: 30px;
     margin-left: 20px;
   }
 }
