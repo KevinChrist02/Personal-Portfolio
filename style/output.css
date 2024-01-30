@@ -1,29 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 @media screen and (max-width: 1075px) {
   .main .content {
-    flex-direction: column;
-  }
+    flex-direction: column; }
   .main .image {
-    margin-bottom: 20px;
-  }
-}
+    margin-bottom: 20px; } }
 * {
-  font-family: "Quicksand", sans-serif;
-}
+  font-family: "Quicksand", sans-serif; }
 
 body {
-  background-image: linear-gradient(to right, #4f772d 0%, #90a955 40%, #dddf00 60%);
-}
+  background-image: linear-gradient(90deg, #ff6d00, #9d4edd); }
 
 .footer a {
   text-decoration: none;
-  color: white;
-}
+  color: white; }
 
 .container {
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .main {
   display: block;
@@ -33,39 +26,32 @@ body {
   margin-bottom: 30px;
   padding: 50px;
   border-radius: 14px;
-  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
-}
-.main .content {
-  color: white;
-  display: flex;
-  width: 100%;
-}
-.main .content .text {
-  display: block;
-  margin-top: 10vh;
-  padding: 20px;
-}
-.main .content .text p {
-  margin-top: 25px;
-  font-size: 20px;
-  line-height: 25px;
-}
-.main .image {
-  display: flex;
-  margin-top: 5vh;
-  margin-left: 26px;
-  margin-right: 50px;
-  position: relative;
-}
-.main .image img {
-  max-width: 290px;
-  border-radius: 14px;
-}
-.main .footer {
-  display: flex;
-  font-size: 30px;
-  gap: 30px;
-  margin-left: 20px;
-}
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3); }
+  .main .content {
+    color: white;
+    display: flex;
+    width: 100%; }
+    .main .content .text {
+      display: block;
+      margin-top: 10vh;
+      padding: 20px; }
+      .main .content .text p {
+        margin-top: 25px;
+        font-size: 20px;
+        line-height: 25px; }
+  .main .image {
+    display: flex;
+    margin-top: 5vh;
+    margin-left: 26px;
+    margin-right: 50px;
+    position: relative; }
+    .main .image img {
+      max-width: 290px;
+      border-radius: 14px; }
+  .main .footer {
+    display: flex;
+    font-size: 30px;
+    gap: 30px;
+    margin-left: 20px; }
 
 /*# sourceMappingURL=output.css.map */
